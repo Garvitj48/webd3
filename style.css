@@ -1,0 +1,13 @@
+.box{
+    height: 200px;
+    border: 2px solid black;
+}
+.sq1{
+    border: 2px solid salmon;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    background-color: rgba(0, 255, 255, 0.217);
+    transform: skewy(20deg);
+   transform-origin: 10 20;
+}

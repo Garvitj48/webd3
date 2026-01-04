@@ -1,0 +1,164 @@
+*{
+    font-size: 14px;
+}
+ul{
+    list-style: none;
+}
+.box{
+    border: 1px solid grey;
+    margin-left: 84px;
+    margin-right: 84px;
+    display: flex;
+    background-color: #9e9e9e1f;
+    align-items: center;
+    border-radius: 5px;
+}
+.dropdown{
+    padding: 10px;
+    /* color: #535353; */
+    color: #2e2e2e;
+    font-weight: bolder;
+    position: relative;
+}
+.d1{
+    margin-left: 200px;
+}
+.menu{
+    position: absolute;
+    display: none;
+}
+.dropdown:hover .menu{
+     display: block;
+}
+.menu li a{
+    text-decoration: none;
+}
+a:visited{
+    color:#2e2e2e;
+}
+.menu{
+    border: 1px solid #2e2e2e;
+    background-color: #9e9e9e1f;
+    height: 100px;
+    max-height: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+.but{
+    margin-left: auto;
+    margin-right: 20px;
+}
+.but button{
+    background-color:#fcb900;
+    border-radius: 5px;
+}
+.but button a{
+   text-decoration: none;
+}
+.bu{
+    width: 113.087px;
+    height: 37.60px;
+}
+a {
+    color: inherit;     
+    text-decoration: none; 
+}
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.t1{
+    font-size: 48px;
+}
+.win{
+    transform: scale(0.8);
+}
+.bod{
+    font-size: 18px;
+    display: flex;
+    justify-self: center;
+    text-align: center;
+    width: 524px;
+    word-wrap: break-word;
+    color: #2e2e2ea5;
+}
+button{
+    background-color: #fcb900;
+    border-radius: 5px;
+    height: 45px;
+}
+.downbutton{
+    display: flex;
+    justify-self: center;
+    padding: 15px;
+    margin: 25px;
+}
+.down{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.down a{
+    font-size: 16px;
+}
+.foot{
+    display: flex;
+    justify-self: center;
+    
+}
+.h22{
+    font-size: 24px;
+    font-weight: bolder;
+    color: #2e2e2e98;
+}
+
+.h23{
+    font-size: 19px;
+    color: #2e2e2e98;
+}
+.f1{
+    margin: 15px;
+}
+.fimg{
+    transform: scale(0.9);
+}
+
+.langi{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 84px;
+    margin-right: 84px;
+    margin-top: 35px;
+}
+.icons{
+    background-color:  #9e9e9e1f;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 12px;
+    justify-items: center;
+}
+.langbut{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.lang{
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 10px;
+}
+.inc{
+    font-weight: bolder;
+    font-size: 16px;
+    margin: 10px;
+}
+.enc{
+    font-size: 10px;
+    margin: 10px;
+}
+.encrypt{
+    margin: 10px;
+    font-size:9px;
+}
